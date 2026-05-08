@@ -2,13 +2,14 @@
 ReasonEdit: Towards Interpretable Image Editing Evaluation via Reinforcement Learning
 </h1>
 
-## Install
+# 📦 Install
 
 ```bash
 python -m pip install -r requirements.txt
 ```
 
-Download the official Hugging Face weights into:
+# 📥 Model Weights
+Download the model weights from the [link](https://huggingface.co/TmpAccount/ReasonEdit/tree/main) and put them into:
 
 ```text
 weights/qwen35_9b
@@ -25,7 +26,7 @@ The default registry points to:
 base model: weights/qwen35_9b
 LoRA weights: weights/ReasonEdit
 ```
-
+# ⚡Inference
 ## CLI Inference
 
 Single sample, default CoT mode:

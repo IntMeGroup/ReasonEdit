@@ -2,13 +2,13 @@
 ReasonEdit: Towards Interpretable Image Editing Evaluation via Reinforcement Learning
 </h1>
 
-# 📦 Install
+## 📦 Install
 
 ```bash
 python -m pip install -r requirements.txt
 ```
 
-# 📥 Model Weights
+## 📥 Model Weights
 Download the model weights from the [link](https://huggingface.co/TmpAccount/ReasonEdit/tree/main) and put them into:
 
 ```text
@@ -26,8 +26,8 @@ The default registry points to:
 base model: weights/qwen35_9b
 LoRA weights: weights/ReasonEdit
 ```
-# ⚡Inference
-## CLI Inference
+## ⚡Inference
+### CLI Inference
 
 Single sample, default CoT mode:
 
@@ -59,7 +59,7 @@ python -m cli.infer_cli \
 The batch CSV must contain `source`, `edited`, and `instruction` columns. Image paths in the CSV are resolved relative to this repository root when they are not absolute.
 The output CSV keeps only `source`, `edited`, `instruction`, `v_score`, `e_score`, `p_score`, and `cot_text`. When the input CSV also carries labels, the CLI prints three-dimensional `PLCC`, `SRCC`, and `KRCC` metrics in its JSON summary.
 
-## Multi-GPU Batch
+### Multi-GPU Batch
 
 ```bash
 python -m cli.infer_cli \
@@ -69,7 +69,7 @@ python -m cli.infer_cli \
   --output_csv outputs/reasonedit_predictions.csv
 ```
 
-## Reward Model Package
+### Reward Model Package
 
 The reward model release is split into code and weights:
 

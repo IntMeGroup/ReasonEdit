@@ -1,6 +1,6 @@
-# ReasonEdit
-
-Interpretable image editing quality evaluation.
+<h1 align="center">
+ReasonEdit: Towards Interpretable Image Editing Evaluation via Reinforcement Learning
+</h1>
 
 ## Install
 

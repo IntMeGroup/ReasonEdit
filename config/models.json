@@ -1,0 +1,12 @@
+{
+  "recommended_base_model_path": "weights/qwen35_9b",
+  "default_model_id": "reasonedit_v1",
+  "models": {
+    "reasonedit_v1": {
+      "display_name": "ReasonEdit-v1",
+      "description": "ReasonEdit-v1 LoRA package for image editing quality evaluation.",
+      "recommended_base_model_path": "weights/qwen35_9b",
+      "lora_path": "weights/ReasonEdit"
+    }
+  }
+}

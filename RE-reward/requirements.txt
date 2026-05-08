@@ -1,0 +1,10 @@
+torch>=2.6,<2.7
+torchvision>=0.21,<0.22
+transformers
+peft
+pandas
+numpy
+Pillow
+tqdm
+scipy
+qwen-vl-utils
